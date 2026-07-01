@@ -1,4 +1,5 @@
-File with text
-another line of text and symbols
+--File with text
+--another line of text and symbols
 
-SELECT client.id, account.clientid from client join account on client.id = account.clientid;
+SELECT client.name, account.clientid from client join account on client.id = account.clientid 
+ORDER BY client.name DESC;
