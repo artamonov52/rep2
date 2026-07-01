@@ -1,1 +1,4 @@
 File with text
+another line of text and symbols
+
+SELECT client.id, account.clientid from client join account on client.id = account.clientid;
